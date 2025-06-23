@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev-land | أرض المطورين</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0; padding: 0;
+      direction: rtl;
+      background: linear-gradient(to left, #88e0ef, #70c1b3);
+      color: #1f2937;
+    }
+    nav {
+      background: #fff; display: flex;
+      justify-content: space-between; align-items: center;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky; top: 0; z-index: 10;
+    }
+    nav .logo { font-size: 1.5rem; font-weight: bold; color: #14b8a6; }
+    nav ul { list-style: none; display: flex; gap: 1.5rem; margin: 0; }
+    nav ul li a {
+      text-decoration: none; color: #1f2937;
+      font-weight: 500;
+    }
+    nav ul li a:hover { color: #0d9488; }
+    .hero {
+      text-align: center; padding: 4rem 2rem;
+      background: rgba(255,255,255,0.8);
+      margin: 2rem; border-radius: 10px;
+    }
+    .hero img {
+      max-width: 300px; display: block;
+      margin: 0 auto 1.5rem;
+    }
+    .hero h1 { font-size: 2.5rem; color: #0d9488; margin: .5rem 0; }
+    .hero p { color: #4b5563; margin: 1rem 0; }
+    .cta { display: inline-block; margin-top: 1rem;
+      background: #14b8a6; color: #fff; padding: .75rem 2rem;
+      text-decoration: none; border-radius: 5px;
+    }
+    .cta:hover { background: #0d9488; }
+    .services {
+      background: #fff; margin: 2rem; padding: 2rem;
+      border-radius: 10px;
+    }
+    .services h2 {
+      text-align: center; font-size: 2rem;
+      color: #0d9488; margin-bottom: 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #f0fdfa; padding: 1.5rem;
+      border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .card h3 { color: #0f766e; margin-bottom: .5rem; }
+    footer {
+      background: #0f766e; color: #fff;
+      text-align: center; padding: 1rem; margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Dev-land</div>
+    <ul>
+      <li><a href="#">الرئيسية</a></li>
+      <li><a href="#">التطبيقات</a></li>
+      <li><a href="#">أخبار التقنية</a></li>
+      <li><a href="#">الأجهزة</a></li>
+      <li><a href="#">العضويات</a></li>
+      <li><a href="#">الدعم</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <!-- صورة توضيحية مدمجة -->
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA..." alt="Dev-land Illustration">
+    <h1>مرحبًا بك في أرض المطورين</h1>
+    <p>أول موقع عربي يقدم خدمات حصرية لتطبيقات iOS المعدّلة، أخبار التقنية، ومتجر إلكتروني للأجهزة.</p>
+    <a href="#" class="cta">استكشف الآن</a>
+  </section>
+
+  <section class="services">
+    <h2>خدماتنا الحصرية</h2>
+    <div class="grid">
+      <div class="card"><h3>توقيع التطبيقات تلقائيًا</h3><p>تعديل وحقن وتوقيع تطبيقات iOS مباشرة.</p></div>
+      <div class="card"><h3>مولّد Tweaks بصري</h3><p>صمم Tweak خاص بك بدون خبرة برمجية.</p></div>
+      <div class="card"><h3>محاكي تفاعلي</h3><p>شغل التطبيقات المعدلة من المتصفح قبل التحميل.</p></div>
+      <div class="card"><h3>سوق الأجهزة</h3><p>أجهزة iOS معدّلة ومضمونة من Dev-land.</p></div>
+      <div class="card"><h3>نشرات تقنية حصرية</h3><p>مجلة أسبوعية لأحدث الأخبار والمراجعات بالعربي.</p></div>
+      <div class="card"><h3>مختبر Dev-Lab</h3><p>مساحة للمطورين لاختبار Tweaks وتبادل المشاريع.</p></div>
+    </div>
+  </section>
+
+  <footer>© 2025 جميع الحقوق محفوظة لـ Dev-land</footer>
+</body>
+</html>
